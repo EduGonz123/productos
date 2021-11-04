@@ -80,7 +80,7 @@ class BaseDeDatos:
 		except Exception as e:
 			raise 
 	
-	baseDeDatos = BaseDeDatos()
+baseDeDatos = BaseDeDatos()
 
 print(" \t\tBases de Datos")
 print(" \n\tCharly GM Systems")
