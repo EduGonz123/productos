@@ -56,7 +56,7 @@ class BaseDeDatos:
 			
 			print("Código:", mostrar[0])
 			print("Descripción:", mostrar[1])
-			print("Cantidad:", mostrar[[2])
+			print("Cantidad:", mostrar[2])
 			print("Precio: Q.", mostrar[3])
 			print("Total: Q.", mostrar[4])
 		except Exception as e:
