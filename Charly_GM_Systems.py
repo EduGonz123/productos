@@ -36,7 +36,7 @@ class BaseDeDatos:
 		
 		try:
 			self.cursor.execute(mostrar)
-			productos self.cursor.fetchall()
+			productos = self.cursor.fetchall()
 			
 			for producto in productos:
 				print("Código:", producto[0])
@@ -95,8 +95,8 @@ if menu == 1:
 	usuario = input("\n Usuario: ")
 	contrasena = input(" Contraseña: ")
 	
-	if usuario == 'Charly GM' and contrasena == '123': 
-	baseDeDatos.mostrar_productos()
+	if usuario == 'Charly GM' and contrasena == '123':
+		baseDeDatos.mostrar_productos()
 elif menu == 2:
 	print("\t\tCrear cuenta")
 	id = input("\n Id: ")
