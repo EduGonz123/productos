@@ -51,7 +51,7 @@ class BaseDeDatos:
 	def mostrar_un_producto(self, codigo):
 		mostrar = "SELECT * FROM Productos WHERE Código = '{}'".format(codigo)
 		try:
-			self.cursor.execute(sql)
+			self.cursor.execute(mostrar) 
 			mostrar = self.cursor.fetchone()
 			
 			print("Código:", mostrar[0])
