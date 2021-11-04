@@ -5,9 +5,9 @@ class BaseDeDatos:
 	def init__(self):
 		self.connection = pymysql.connect(
 		host='localhost', #ip
-		user='root',
-		password='',
-		db= 'productos_bd'
+		user='id17826437_prod_123',
+		password='kB8VPudyeQIOL--(',
+		db= 'id17826437_productos' 
 		)
 		
 		#Muestra si la conexión fue exitosa
