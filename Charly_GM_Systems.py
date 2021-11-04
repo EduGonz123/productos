@@ -36,7 +36,7 @@ class BaseDeDatos:
 		
 		try:
 			self.cursor.execute(mostrar)
-			 self.cursor.fetchall()
+			producto self.cursor.fetchall()
 			
 			for producto in productos:
 				print("Código:", producto[0])
